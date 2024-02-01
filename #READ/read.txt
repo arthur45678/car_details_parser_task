@@ -1,0 +1,11 @@
+Запуск
+ $ composer install
+ $ ./vendor/bin/sail up -d
+ $ cp .env.example .env
+ $ php artisan migrate:fresh --seed
+
+ Парсит модели
+ $ php artisan carmodels:insert
+
+ Парсит поколение
+ $ php artisan generations:insert
